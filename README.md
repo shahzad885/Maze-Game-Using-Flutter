@@ -1,16 +1,84 @@
-# maize_game
+# 🎮 Maze Runner
 
-A new Flutter project.
+A challenging maze game built with Flutter featuring procedurally generated mazes and smooth gameplay.
 
-## Getting Started
+### Screen recording
 
-This project is a starting point for a Flutter application.
+https://github.com/user-attachments/assets/ac07e9d1-4155-4af5-9612-611e358f82c2
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- **Procedurally Generated Mazes**: Unique layouts using Depth-First Search algorithm
+- **Smooth Controls**: Intuitive directional button navigation
+- **Progressive Scoring**: Complete mazes to increase your score
+- **Modern UI**: Beautiful gradients and polished visual effects
+- **Optimized Performance**: Efficient rendering for 31x23 grid mazes
+
+## 🎯 How to Play
+
+1. Navigate the blue player to the green star goal
+2. Use arrow buttons to move up, down, left, right
+3. Complete mazes to increase your score
+4. Press "NEW GAME" to generate a fresh maze
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (≥ 3.0.0)
+- Android Studio / VS Code with Flutter extensions
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/shahzad885/Maze-Game-Using-Flutter.git
+cd maze-runner-flutter
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+
+### Build for Release
+```bash
+# Android
+flutter build apk --release
+
+# iOS
+flutter build ios --release
+```
+
+## 🎨 Customization
+
+### Maze Size
+```dart
+static const int rows = 31;  // Maze height
+static const int cols = 23;  // Maze width
+```
+
+### Colors
+```dart
+// Background gradient
+colors: [Colors.indigo.shade900, Colors.indigo.shade400]
+```
+
+## 🛠️ Technical Details
+
+- **Language**: Dart with Flutter framework
+- **Maze Generation**: DFS algorithm with randomized directions
+- **Rendering**: Custom painter for efficient visualization
+- **Architecture**: StatefulWidget with animation controllers
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push and open a Pull Request
+
+
+**Developed with ❤️ using Flutter**
