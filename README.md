@@ -52,13 +52,6 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-## 🎨 Customization
-
-### Maze Size
-```dart
-static const int rows = 31;  // Maze height
-static const int cols = 23;  // Maze width
-```
 
 ### Colors
 ```dart
