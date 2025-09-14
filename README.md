@@ -52,13 +52,6 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-
-### Colors
-```dart
-// Background gradient
-colors: [Colors.indigo.shade900, Colors.indigo.shade400]
-```
-
 ## 🛠️ Technical Details
 
 - **Language**: Dart with Flutter framework
